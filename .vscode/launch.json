@@ -1,0 +1,90 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "DeclarandoMetodo",
+            "request": "launch",
+            "mainClass": "edu.junior.anatomiadeclasses.DeclarandoMetodo",
+            "projectName": "anatomiaDeClasse_b78aea40"
+        },
+        {
+            "type": "java",
+            "name": "aboutMe",
+            "request": "launch",
+            "mainClass": "edu.junior.anatomiadeclasses.aboutMe",
+            "projectName": "anatomiaDeClasse_b78aea40"
+        },
+        {
+            "type": "java",
+            "name": "anatomiaClasse",
+            "request": "launch",
+            "mainClass": "edu.junior.anatomiadeclasses.anatomiaClasse",
+            "projectName": "anatomiaDeClasse_b78aea40"
+        },
+        {
+            "type": "java",
+            "name": "operadores",
+            "request": "launch",
+            "mainClass": "edu.junior.operadores.operadores",
+            "projectName": "anatomiaDeClasse_b78aea40"
+        },
+        {
+            "type": "java",
+            "name": "tiposEVariaveis",
+            "request": "launch",
+            "mainClass": "edu.junior.tiposevariaveis.tiposEVariaveis",
+            "projectName": "anatomiaDeClasse_b78aea40"
+        },
+        {
+            "type": "java",
+            "name": "variavelConstante",
+            "request": "launch",
+            "mainClass": "edu.junior.tiposevariaveis.variavelConstante",
+            "projectName": "anatomiaDeClasse_b78aea40"
+        },
+        {
+            "type": "java",
+            "name": "usuarioSmartTv",
+            "request": "launch",
+            "mainClass": "usuarioSmartTv",
+            "projectName": "anatomiaDeClasse_b78aea40"
+        }
+    ]
+}
