@@ -1,6 +1,6 @@
 public class NotaEscolar {
     public static void main(String[] args) {
-        int media = 7;
+        int media = 5;
 
         if (media >=7) {
            System.out.println("Aluno Aprovado!");
